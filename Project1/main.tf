@@ -79,6 +79,19 @@ resource "azurerm_network_security_group" "webserver_nsg" {
     destination_port_range     = "80"
     destination_address_prefix = "VirtualNetwork"
   }
+
+  security_rule {
+    access                     = "Deny"
+    direction                  = "Inbound"
+    name                       = "Block-inbound-traffic-from-the-internet"
+    priority                   = 200
+    protocol                   = "*"
+    source_port_range          = "*"
+    source_address_prefix      = "*"
+    destination_port_range     = "*"
+    destination_address_prefix = "*"
+  }
+
   tags = {
     WebServer = "development"
   }
@@ -150,7 +163,7 @@ resource "azurerm_linux_virtual_machine" "webserver_vms" {
   network_interface_ids = [
     azurerm_network_interface.webserver_nic[count.index].id,
   ]
-  source_image_id = "/subscriptions/9761a7ff-23aa-4bfa-a301-9206bfa2a9ce/resourceGroups/PackerResourceGroup/providers/Microsoft.Compute/images/MyNginxImage"
+  source_image_id = var.image_id 
 
   os_disk {
     storage_account_type = "Standard_LRS"

@@ -20,7 +20,11 @@
     "managed_image_name": "MyNginxImage",
 
     "location": "East US",
-    "vm_size": "Standard_B1s"
+    "vm_size": "Standard_B1s",
+    "azure_tags": {
+        "WebServer": "development"
+    }
+
   }],
   "provisioners": [{
     "inline": [
