@@ -53,7 +53,7 @@ Following are the commands used for packer and terraform
 
   Run the command for Build the VM image
 	
-	1.  **packer build server.json**
+	1.  __packer build server.json__ 
 
 #### Terraform
 
