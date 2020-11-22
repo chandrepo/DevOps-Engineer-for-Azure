@@ -34,7 +34,7 @@
 	7. Creating the Availability Set.
 	8. Creating the Virtual machines with image created by the packer.
 	9. Creating the managed disks for the Virtual machines.
-	10. Prefix, location and instance_count are the configurable parameters.
+	10. prefix, location and instance_count are the configurable parameters.
 	
 
 ### Dependencies
@@ -51,19 +51,19 @@ Following are the commands used for packer and terraform
 
 #### Packer
 
-  Run the command for Build the VM image
+  Run the below command for Build the VM image
 	
-	1.  __packer build server.json__ 
+	1.  packer build server.json 
 
 #### Terraform
 
   Run the below commands for deploying the Infrastructure
 
-	1. Run **terraform init** to get started.
-	2. Run **terraform plan -var-file=variables.tfvars -lock=false** to view the resources they will be created.
-	3. Run **terraform plan -var-file=variables.tfvars -lock=false -out solution.plan** to save the plan that the resources will be created.
-	4. Run **terraform apply -var-file=variables.tfvars -lock=false** or **terraform apply solution.plan** to apply the plan and deploy the infrastructure.
-	5. Run **terraform destroy -var-file=variables.tfvars -lock=false** to delete the infrastructure.
+	1. Run terraform init to get started.
+	2. Run terraform plan -var-file=variables.tfvars -lock=false to view the resources they will be created.
+	3. Run terraform plan -var-file=variables.tfvars -lock=false -out solution.plan to save the plan that the resources will be created.
+	4. Run terraform apply -var-file=variables.tfvars -lock=false or terraform apply solution.plan to apply the plan and deploy the infrastructure.
+	5. Run terraform destroy -var-file=variables.tfvars -lock=false to delete the infrastructure.
 
 ### Output
 
@@ -72,8 +72,11 @@ Following are the commands used for packer and terraform
   Outputs:
 
   Output_Values = [
+    
     "Public IP Address :   20.185.37.191 ",
+    
     "Packer Image ID :   /subscriptions/9761a7ff-23aa-4bfa-a301-9206bfa2a9ce/resourceGroups/PackerResourceGroup/providers/Microsoft.Compute/images/MyNginxImage",
+  
   ]
 
 
