@@ -1,0 +1,36 @@
+{
+  "variables": {
+    "client_id": "6e3d1eb1-b5a7-41bf-8900-7f7277b0771c",
+    "client_secret": "333yIcp~7PdLEPepSkwavjygpy3.ylreRo",
+    "subscription_id": "9761a7ff-23aa-4bfa-a301-9206bfa2a9ce"
+  },
+  "builders": [{
+    "type": "azure-arm",
+
+    "client_id": "{{user `client_id`}}",
+    "client_secret": "{{user `client_secret`}}",
+    "subscription_id": "{{user `subscription_id`}}",
+
+    "os_type": "Linux",
+    "image_publisher": "Canonical",
+    "image_offer": "UbuntuServer",
+    "image_sku": "18.04-LTS",
+
+    "managed_image_resource_group_name": "PackerResourceGroup",
+    "managed_image_name": "MyNginxImage",
+
+    "location": "East US",
+    "vm_size": "Standard_B1s"
+  }],
+  "provisioners": [{
+    "inline": [
+        "apt-get update",
+        "apt-get install nginx -y",
+        "cd  /var/www/html && sudo touch index.html && sudo chmod 777 index.html &&  sudo echo 'Hello World!' >> index.html",
+        "/usr/sbin/waagent -force -deprovision+user && export HISTSIZE=0 && sync"
+    ],
+    "inline_shebang": "/bin/sh -x",
+    "type": "shell",
+    "execute_command": "chmod +x {{ .Path }}; {{ .Vars }} sudo -E sh '{{ .Path }}'"
+  }]
+}
