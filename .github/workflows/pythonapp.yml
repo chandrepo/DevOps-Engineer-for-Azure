@@ -1,0 +1,31 @@
+name: Python application test with Github Actions
+
+on: [push]
+    branches:
+    - master
+    paths:
+    - 'Project2/C2-AgileDevelopmentwithAzure/**'
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.5
+      uses: actions/setup-python@v1
+      with:
+        python-version: 3.5
+    - name: Install dependencies
+      run: |
+        cd "Project2/C2-AgileDevelopmentwithAzure/automated_build_exercise/starter_files"
+        make install
+    - name: Lint with pylint
+      run: |
+        cd "Project2/C2-AgileDevelopmentwithAzure/automated_build_exercise/starter_files"
+        make lint
+    - name: Test with pytest
+      run: |
+        cd "Project2/C2-AgileDevelopmentwithAzure/automated_build_exercise/starter_files"
+        make test
