@@ -12,7 +12,7 @@ jobs:
     - name: Set up Python 3.5
       uses: actions/setup-python@v2
       with:
-        python-version: 3.5
+        python-version: '3.x'
     - name: Install dependencies
       run: |
         cd "Project2/C2-AgileDevelopmentwithAzure/automated_build_exercise/starter_files"
