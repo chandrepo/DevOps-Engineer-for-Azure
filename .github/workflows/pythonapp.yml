@@ -1,12 +1,7 @@
 name: Python application test with Github Actions
 
-on: 
-  push:
-    branches:
-    - master
-    paths:
-    - 'Project2/C2-AgileDevelopmentwithAzure/**'
-
+on: [push]
+ 
 jobs:
   build:
 
