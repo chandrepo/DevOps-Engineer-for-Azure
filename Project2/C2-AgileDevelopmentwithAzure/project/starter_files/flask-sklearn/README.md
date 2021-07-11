@@ -19,6 +19,9 @@
 * Project running on Azure App Service
 
 * Project cloned into Azure Cloud Shell
+  * Open Azure Cloud Shell and generate the ssh key pair.
+  ![image](https://user-images.githubusercontent.com/32601965/125200175-5c2f5400-e287-11eb-8f27-73ef8f0a84a9.png)
+
 
 * Passing tests that are displayed after running the `make all` command from the `Makefile`
 
