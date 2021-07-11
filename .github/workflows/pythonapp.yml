@@ -1,4 +1,4 @@
-name: Python application test with Github Actions
+name: Continuous integration of flask-sklearn application test with Github Actions
 
 on: [push]
  
@@ -15,13 +15,13 @@ jobs:
         python-version: '3.x'
     - name: Install dependencies
       run: |
-        cd "Project2/C2-AgileDevelopmentwithAzure/automated_build_exercise/starter_files"
+        cd "Project2/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn"
         make install
     - name: Lint with pylint
       run: |
-        cd "Project2/C2-AgileDevelopmentwithAzure/automated_build_exercise/starter_files"
+        cd "Project2/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn"
         make lint
     - name: Test with pytest
       run: |
-        cd "Project2/C2-AgileDevelopmentwithAzure/automated_build_exercise/starter_files"
+        cd "Project2/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn"
         make test
