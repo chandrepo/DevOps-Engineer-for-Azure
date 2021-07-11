@@ -21,6 +21,10 @@
 * Project cloned into Azure Cloud Shell
   * Open Azure Cloud Shell and generate the ssh key pair.
   ![image](https://user-images.githubusercontent.com/32601965/125200175-5c2f5400-e287-11eb-8f27-73ef8f0a84a9.png)
+  * Copy the public SSH key from path ~/.ssh/id_rsa.pub and paste to github.com 
+  * Clone the git repository using following command as shown below
+    Command: git clone git@github.com:chandrepo/DevOps-Engineer-for-Azure.git     
+  ![image](https://user-images.githubusercontent.com/32601965/125200487-0fe51380-e289-11eb-9d35-431b962b96e4.png)
 
 
 * Passing tests that are displayed after running the `make all` command from the `Makefile`
