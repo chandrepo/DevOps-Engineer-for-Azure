@@ -1,7 +1,15 @@
 name: Continuous integration of flask ml webapp with Github Actions
 
-on: [push]
- 
+on:
+  # Triggers the workflow on push request events but only for the master branch
+  push:
+    branches:
+    - master
+    paths:
+    - 'Project2/C2-AgileDevelopmentwithAzure/project/**'
+    paths-ignore:
+    - 'Project2/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/README.md'
+
 jobs:
   build:
 
