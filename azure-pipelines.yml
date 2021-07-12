@@ -26,7 +26,7 @@ variables:
   pythonVersion: '3.7'
 
   # Project files directory
-  ProjectFilesDir: 'C2-Agile Development with Azure/project/starter_files/flask-sklearn'
+  ProjectFilesDir: 'C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn'
 
 stages:
 - stage: Build
