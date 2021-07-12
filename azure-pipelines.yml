@@ -25,6 +25,9 @@ variables:
   # Python version: 3.7
   pythonVersion: '3.7'
 
+  # Project files directory
+  ProjectFilesDir: 'C2-Agile Development with Azure/project/starter_files/flask-sklearn'
+
 stages:
 - stage: Build
   displayName: Build stage
@@ -39,18 +42,24 @@ stages:
       displayName: 'Use Python $(pythonVersion)'
 
     - script: |
+        pwd
+        ls -la
+      workingDirectory: $(projectRoot)/$(ProjectFilesDir)
+      displayName: "checking the project files directory path"
+
+    - script: |
         python -m venv antenv
         source antenv/bin/activate
         python -m pip install --upgrade pip
         pip install setup
         pip install -r requirements.txt
-      workingDirectory: $(projectRoot)
+      workingDirectory: $(projectRoot)/$(ProjectFilesDir)
       displayName: "Install requirements"
 
     - task: ArchiveFiles@2
       displayName: 'Archive files'
       inputs:
-        rootFolderOrFile: '$(projectRoot)'
+        rootFolderOrFile: '$(projectRoot)/$(ProjectFilesDir)'
         includeRootFolder: false
         archiveType: zip
         archiveFile: $(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip
