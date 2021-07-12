@@ -44,6 +44,14 @@
 * Output of a test run
   ![image](https://user-images.githubusercontent.com/32601965/125204321-48411d80-e29a-11eb-91d9-b6957700a689.png)
   ![image](https://user-images.githubusercontent.com/32601965/125204388-a53cd380-e29a-11eb-8eba-b12e85e81f5a.png)
+* Load test flask ml application using Locust
+  Create python virtual environment using following commands
+    python -m venv .locust
+    source .locust/bin/activate on Linux or source .locust/Scripts/activate on Windows
+    run locust on Linux or locust.exe on Windows
+  ![image](https://user-images.githubusercontent.com/32601965/125228569-a4d02700-e2f2-11eb-8f87-72ff6e45783f.png)
+  ![image](https://user-images.githubusercontent.com/32601965/125228618-ba455100-e2f2-11eb-8720-f25ce12f8a06.png)
+
 
 
 * Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
@@ -63,10 +71,12 @@ The output should look similar to this:
 
 
 * Output of streamed log files from deployed application
-![image](https://user-images.githubusercontent.com/32601965/125221723-50bf4580-e2e6-11eb-8765-ee240fe8e3f8.png)
-![image](https://user-images.githubusercontent.com/32601965/125221859-8bc17900-e2e6-11eb-8321-74fc3f42e10b.png)
+![image](https://user-images.githubusercontent.com/32601965/125229156-c4b41a80-e2f3-11eb-9f2b-89e899399b28.png)
+![image](https://user-images.githubusercontent.com/32601965/125229103-aa7a3c80-e2f3-11eb-90cd-eb89f1ebfe81.png)
+![image](https://user-images.githubusercontent.com/32601965/125229364-4310bc80-e2f4-11eb-8597-79c29fa164d2.png)
+![image](https://user-images.githubusercontent.com/32601965/125229446-73f0f180-e2f4-11eb-99d1-0ce234760840.png)
 
-![image](https://user-images.githubusercontent.com/32601965/125219271-28cde300-e2e2-11eb-84b6-e0532abe584a.png)
+
 
 > 
 
