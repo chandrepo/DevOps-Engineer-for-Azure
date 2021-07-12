@@ -5,8 +5,6 @@ on:
   push:
     branches:
     - master
-    paths:
-    - 'Project2/C2-AgileDevelopmentwithAzure/project/**'
     paths-ignore:
     - 'Project2/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/README.md'
 
