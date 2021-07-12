@@ -1,4 +1,4 @@
-name: Continuous integration of flask-sklearn application test with Github Actions
+name: Continuous integration of flask ml webapp with Github Actions
 
 on: [push]
  
