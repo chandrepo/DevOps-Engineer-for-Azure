@@ -47,25 +47,33 @@
 
 
 * Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
+  * Creating the project for 
 
 * Running Azure App Service from Azure Pipelines automatic deployment
+  ![image](https://user-images.githubusercontent.com/32601965/125219454-629ee980-e2e2-11eb-9e18-ccb5ba59a902.png)
+  ![image](https://user-images.githubusercontent.com/32601965/125219712-e527a900-e2e2-11eb-86ba-4df4d6495ad5.png)
+  ![image](https://user-images.githubusercontent.com/32601965/125219805-215b0980-e2e3-11eb-843a-743cd523c2c1.png)
+
 
 * Successful prediction from deployed flask app in Azure Cloud Shell.  [Use this file as a template for the deployed prediction](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/make_predict_azure_app.sh).
 The output should look similar to this:
+![image](https://user-images.githubusercontent.com/32601965/125219304-384d2c00-e2e2-11eb-8d8a-5ea4d4dab92d.png)
 
-```bash
-udacity@Azure:~$ ./make_predict_azure_app.sh
-Port: 443
-{"prediction":[20.35373177134412]}
-```
+
+
 
 * Output of streamed log files from deployed application
+![image](https://user-images.githubusercontent.com/32601965/125221723-50bf4580-e2e6-11eb-8765-ee240fe8e3f8.png)
+![image](https://user-images.githubusercontent.com/32601965/125221859-8bc17900-e2e6-11eb-8321-74fc3f42e10b.png)
+
+![image](https://user-images.githubusercontent.com/32601965/125219271-28cde300-e2e2-11eb-84b6-e0532abe584a.png)
 
 > 
 
 ## Enhancements
 
 <TODO: A short description of how to improve the project in the future>
+    
 
 ## Demo 
 
