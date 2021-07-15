@@ -4,7 +4,6 @@
 
 [![Azure Pipelines](https://dev.azure.com/chandyadlapalli/flask-ml-service-cd/_apis/build/status/chandrepo.DevOps-Engineer-for-Azure?branchName=master)](https://dev.azure.com/chandyadlapalli/flask-ml-service-cd/_build/latest?definitionId=9&branchName=master)
 
-[![Build Status](https://dev.azure.com/chandyadlapalli/flask-ml-service-cd/_apis/build/status/chandrepo.DevOps-Engineer-for-Azure?branchName=master)](https://dev.azure.com/chandyadlapalli/flask-ml-service-cd/_build/latest?definitionId=9&branchName=master)
 
  This project is about Implementing the continuous integration(CI) using GitHub Actions and continuous delivery(CD) for a Python-based machine learning application using the Flask web framework.
 
@@ -22,8 +21,6 @@
 ![image](https://user-images.githubusercontent.com/32601965/125748304-b01f4dbc-f4c5-412f-8901-6c067543322f.png)
 
 
-
-<TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
 
 * Project running on Azure App Service
 
@@ -53,11 +50,14 @@
 * Output of a test run
   ![image](https://user-images.githubusercontent.com/32601965/125204321-48411d80-e29a-11eb-91d9-b6957700a689.png)
   ![image](https://user-images.githubusercontent.com/32601965/125204388-a53cd380-e29a-11eb-8eba-b12e85e81f5a.png)
+  
 * Load test flask ml application using Locust
-  Create python virtual environment using following commands
-    python -m venv .locust
-    source .locust/bin/activate on Linux or source .locust/Scripts/activate on Windows
-    run locust on Linux or locust.exe on Windows
+
+  * Create python virtual environment using following commands
+    i. python -m venv .locust
+    ii. source .locust/bin/activate on Linux or source .locust/Scripts/activate on Windows
+    iii. run locust on Linux or locust.exe on Windows
+    
   ![image](https://user-images.githubusercontent.com/32601965/125228569-a4d02700-e2f2-11eb-8f87-72ff6e45783f.png)
   ![image](https://user-images.githubusercontent.com/32601965/125228618-ba455100-e2f2-11eb-8720-f25ce12f8a06.png)
 
