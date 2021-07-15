@@ -1,14 +1,14 @@
 # Overview
 [![Python application test with Github Actions](https://github.com/chandrepo/DevOps-Engineer-for-Azure/actions/workflows/pythonapp.yml/badge.svg)](https://github.com/chandrepo/DevOps-Engineer-for-Azure/actions/workflows/pythonapp.yml)
-
+[![Build Status](https://dev.azure.com/chandyadlapalli/flask-ml-service-cd/_apis/build/status/chandrepo.DevOps-Engineer-for-Azure?branchName=master)](https://dev.azure.com/chandyadlapalli/flask-ml-service-cd/_build/latest?definitionId=9&branchName=master)
  This project is about Implementing the continuous integration(CI) using GitHub Actions and continuous delivery(CD) for a Python-based machine learning application using the Flask web framework.
 
 
 ## Project Plan
 * A link to a Trello board for the project
-  * [Trello Board URL] https://trello.com/b/CytbVR5I/flask-ml-web-application
+  * [Trello Board URL] (https://trello.com/b/CytbVR5I/flask-ml-web-application)
 * A link to a spreadsheet that includes the original and final project plan
-  * [Project Plan URL] https://github.com/chandrepo/DevOps-Engineer-for-Azure/blob/master/Project2/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/project-management-template.xlsx
+  * [Project Plan URL] (https://github.com/chandrepo/DevOps-Engineer-for-Azure/blob/master/Project2/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/project-management-template.xlsx)
 
 ## Instructions
 
