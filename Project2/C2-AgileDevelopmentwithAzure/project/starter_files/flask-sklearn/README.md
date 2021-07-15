@@ -1,6 +1,8 @@
 # Overview
 [![Python application test with Github Actions](https://github.com/chandrepo/DevOps-Engineer-for-Azure/actions/workflows/pythonapp.yml/badge.svg)](https://github.com/chandrepo/DevOps-Engineer-for-Azure/actions/workflows/pythonapp.yml)
+
 [![Build Status](https://dev.azure.com/chandyadlapalli/flask-ml-service-cd/_apis/build/status/chandrepo.DevOps-Engineer-for-Azure?branchName=master)](https://dev.azure.com/chandyadlapalli/flask-ml-service-cd/_build/latest?definitionId=9&branchName=master)
+
  This project is about Implementing the continuous integration(CI) using GitHub Actions and continuous delivery(CD) for a Python-based machine learning application using the Flask web framework.
 
 
@@ -21,6 +23,7 @@
 <TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
 
 * Project running on Azure App Service
+
   ![image](https://user-images.githubusercontent.com/32601965/125204139-593d5f00-e299-11eb-8054-17c1aa00b125.png)
   ![image](https://user-images.githubusercontent.com/32601965/125204162-783bf100-e299-11eb-81ca-f2f8fb1178dd.png)
   ![image](https://user-images.githubusercontent.com/32601965/125204179-973a8300-e299-11eb-9cad-4f65c3729a7c.png)
@@ -44,7 +47,6 @@
   ![image](https://user-images.githubusercontent.com/32601965/125203942-74f43580-e298-11eb-8fa2-2f5644deb2de.png)
 
 
-
 * Output of a test run
   ![image](https://user-images.githubusercontent.com/32601965/125204321-48411d80-e29a-11eb-91d9-b6957700a689.png)
   ![image](https://user-images.githubusercontent.com/32601965/125204388-a53cd380-e29a-11eb-8eba-b12e85e81f5a.png)
@@ -56,10 +58,18 @@
   ![image](https://user-images.githubusercontent.com/32601965/125228569-a4d02700-e2f2-11eb-8f87-72ff6e45783f.png)
   ![image](https://user-images.githubusercontent.com/32601965/125228618-ba455100-e2f2-11eb-8720-f25ce12f8a06.png)
 
+* Enabling and testing the GitHub Actions
+  ![image](https://user-images.githubusercontent.com/32601965/125777339-59cc5a4b-9911-4296-88b0-181d754dd084.png)
+  ![image](https://user-images.githubusercontent.com/32601965/125777479-ce37c0a3-eb32-4586-8783-060da738fd14.png)
 
 
-* Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
-  * Creating the project for 
+
+* Successful deploy of the project in Azure Pipelines.  
+  * Created the project for flask ml application on Azure DevOps
+  ![image](https://user-images.githubusercontent.com/32601965/125776636-f0ff5cd3-a093-47de-a8a4-5e4d7fa353d2.png)
+  * Created the service connection for flask ml application
+  ![image](https://user-images.githubusercontent.com/32601965/125778080-6a55ffbc-f8d8-4908-8e00-91c74178a1de.png)
+
 
 * Running Azure App Service from Azure Pipelines automatic deployment
   ![image](https://user-images.githubusercontent.com/32601965/125219454-629ee980-e2e2-11eb-9e18-ccb5ba59a902.png)
@@ -73,13 +83,11 @@ The output should look similar to this:
 
 
 
-
 * Output of streamed log files from deployed application
 ![image](https://user-images.githubusercontent.com/32601965/125229156-c4b41a80-e2f3-11eb-9f2b-89e899399b28.png)
 ![image](https://user-images.githubusercontent.com/32601965/125229103-aa7a3c80-e2f3-11eb-90cd-eb89f1ebfe81.png)
 ![image](https://user-images.githubusercontent.com/32601965/125229364-4310bc80-e2f4-11eb-8597-79c29fa164d2.png)
 ![image](https://user-images.githubusercontent.com/32601965/125229446-73f0f180-e2f4-11eb-99d1-0ce234760840.png)
-
 
 
 > 
