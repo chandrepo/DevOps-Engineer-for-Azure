@@ -54,9 +54,12 @@
 * Load test flask ml application using Locust
 
   * Create python virtual environment using following commands
-    i. python -m venv .locust
-    ii. source .locust/bin/activate on Linux or source .locust/Scripts/activate on Windows
-    iii. run locust on Linux or locust.exe on Windows
+  
+     python -m venv .locust
+     
+     source .locust/bin/activate on Linux or source .locust/Scripts/activate on Windows
+     
+     Run locust on Linux or locust.exe on Windows
     
   ![image](https://user-images.githubusercontent.com/32601965/125228569-a4d02700-e2f2-11eb-8f87-72ff6e45783f.png)
   ![image](https://user-images.githubusercontent.com/32601965/125228618-ba455100-e2f2-11eb-8720-f25ce12f8a06.png)
