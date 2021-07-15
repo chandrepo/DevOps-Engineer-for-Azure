@@ -6,8 +6,9 @@
 
 ## Project Plan
 * A link to a Trello board for the project
-  * Find the Trello Board URL:https://trello.com/b/CytbVR5I/flask-ml-web-application
-* A link to a spreadsheet that includes the original and final project plan>
+  * [Trello Board URL] https://trello.com/b/CytbVR5I/flask-ml-web-application
+* A link to a spreadsheet that includes the original and final project plan
+  * [Project Plan URL] https://github.com/chandrepo/DevOps-Engineer-for-Azure/blob/master/Project2/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/project-management-template.xlsx
 
 ## Instructions
 
@@ -85,8 +86,9 @@ The output should look similar to this:
 
 ## Enhancements
 
-<TODO: A short description of how to improve the project in the future>
-    
+Containerization of Python-based machine learning flask application using docker and push the image to Azure container registry.
+
+Operationalize the Python-based machine learning flask application using Azure Kubernetes service, Azure Container registry and Azure DevOps pipeline.
 
 ## Demo 
 
