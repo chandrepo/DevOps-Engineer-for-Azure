@@ -1,6 +1,9 @@
 # Overview
 [![Python application test with Github Actions](https://github.com/chandrepo/DevOps-Engineer-for-Azure/actions/workflows/pythonapp.yml/badge.svg)](https://github.com/chandrepo/DevOps-Engineer-for-Azure/actions/workflows/pythonapp.yml)
 
+
+[![Azure Pipelines](https://dev.azure.com/chandyadlapalli/flask-ml-service-cd/_apis/build/status/chandrepo.DevOps-Engineer-for-Azure?branchName=master)](https://dev.azure.com/chandyadlapalli/flask-ml-service-cd/_build/latest?definitionId=9&branchName=master)
+
 [![Build Status](https://dev.azure.com/chandyadlapalli/flask-ml-service-cd/_apis/build/status/chandrepo.DevOps-Engineer-for-Azure?branchName=master)](https://dev.azure.com/chandyadlapalli/flask-ml-service-cd/_build/latest?definitionId=9&branchName=master)
 
  This project is about Implementing the continuous integration(CI) using GitHub Actions and continuous delivery(CD) for a Python-based machine learning application using the Flask web framework.
