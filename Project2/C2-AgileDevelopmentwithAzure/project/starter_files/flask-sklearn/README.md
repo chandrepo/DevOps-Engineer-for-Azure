@@ -1,18 +1,20 @@
 # Overview
 [![Python application test with Github Actions](https://github.com/chandrepo/DevOps-Engineer-for-Azure/actions/workflows/pythonapp.yml/badge.svg)](https://github.com/chandrepo/DevOps-Engineer-for-Azure/actions/workflows/pythonapp.yml)
 
-<TODO: complete this with an overview of your project>
+ This project is about Implementing the continuous integration(CI) using GitHub Actions and continuous delivery(CD) for a Python-based machine learning application using the Flask web framework.
+
 
 ## Project Plan
-<TODO: Project Plan
-
 * A link to a Trello board for the project
 * A link to a spreadsheet that includes the original and final project plan>
 
 ## Instructions
 
-<TODO:  
-* Architectural Diagram (Shows how key parts of the system work)>
+* Architectural Diagram
+
+![image](https://user-images.githubusercontent.com/32601965/125748304-b01f4dbc-f4c5-412f-8901-6c067543322f.png)
+
+
 
 <TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
 
