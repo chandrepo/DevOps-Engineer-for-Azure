@@ -105,6 +105,5 @@ Operationalize the Python-based machine learning flask application using Azure K
 
 ## Demo 
 
-<TODO: Add link Screencast on YouTube>
-
+[Building a CI/CD Pipeline Demo](https://youtu.be/81CuFwTNJuE)
 
